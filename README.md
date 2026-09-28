@@ -1,4 +1,9 @@
 # A02
+How to Use GitHub and VS Code Together:
+
+Before doing anything, make sure you have VS Code and Git downloaded, as well as a GitHub account.
+
+Create a repository on GitHub.com named "A02", and make sure that under *Configuration* you select "Add README".
 
 
 Glossary:
