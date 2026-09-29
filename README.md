@@ -42,3 +42,11 @@ After making your changes to the README.md file, hit Ctrl+S, and open the Source
 **Remote** – The version of a repository or branch that is hosted on a server, most likely GitHub.com. Remote versions can be connected to local clones so that changes can be synced.
 
 **Repository** – The most basic element of GitHub. A repository contains all of the project files (including documentation), and stores each file's revision history. Repositories can have multiple collaborators and can be either public or private.
+
+## References:
+
+https://youtu.be/V7WpadAi3RI?si=jsrJneiGt1idOYye
+
+https://utrechtuniversity.github.io/workshop-computational-reproducibility/chapters/readme-files.html
+
+https://docs.github.com/en/get-started/learning-about-github/github-glossary#github-app
