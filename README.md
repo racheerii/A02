@@ -1,12 +1,23 @@
 # A02
-How to Use GitHub and VS Code Together:
+## How to Use GitHub and VS Code Together:
 
 Before doing anything, make sure you have VS Code and Git downloaded, as well as a GitHub account.
 
-Create a repository on GitHub.com named "A02", and make sure that under *Configuration* you select "Add README".
+Go to github.com, and log into your account. Create a repository named "A02", and make sure that under *Configuration* you select "Add README".
 
+Then, open VS Code and hit Ctrl+Shift+P. Type in "git clone" and select "Git: Clone". Next, click "Clone from GitHub" and "Allow". This will bring you to your browser and ask for you to log into GitHub. When you are done, go back to VS Code.
 
-Glossary:
+In the search bar, it should say "Repository name (type to search)". Enter the name of the repository you want to use, in this case it should be your "[user.name]/A02". Then, select a folder where you would like to clone the repository. Once, it finishes loading, open that folder.
+
+Before editing your repository, you must set up your Git username and email. Click the "..." in top left of VS Code and open a new terminal. In the terminal, open up Command Prompt and enter these commands:
+git config --global user.name "XYZ"
+git config --global user.email "XYZ@example.com"
+
+Once you enter these commands, you can now start editing your repository! Go back to the Explorer by hitting Ctrl+Shift+E, and click the README.md file. This is where you will do the assignment for A02.
+
+After making your changes to the README.md file, hit Ctrl+S, and open the Source Control by hitting Ctrl+Shift+G. Click the down arrow next to the blue Commit button, and click "Commit & Push". Click "Yes", and it will then ask you to enter a commit message. Click Commit again, and Save. When you check your repository on github.com, you will see the changes you have just made. You are now using VS Code and GitHub together!
+
+## Glossary:
 
 **Branch** – A parallel version of a repository; It is contained within the repository, but does not affect the primary or main branch allowing you to work freely without disrupting the "live" version. When you've made the changes you want to make, you can merge your branch back into the main branch to publish your changes.
 
